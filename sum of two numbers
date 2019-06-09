@@ -1,4 +1,11 @@
 a= int(input("enter first number"))
 b= int(input("enter second number"))
- c a+b
+ c = a+b
  print("The sum of two number is =",c)
+ 
+ // By using function
+ def sum(a,b):
+    return a+b
+ a = int(input("enter first number"))
+ b = int(input("enter second number"))
+ print(sum(a,b))
